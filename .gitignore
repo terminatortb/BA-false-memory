@@ -37,3 +37,9 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+#ignore node modules
+node_modules/
+
+#ignore DS_Store
+**/.DS_Store
