@@ -109,6 +109,7 @@ const self_paced_reading_Test = magpieViews.view_generator("self_paced_reading",
   // name should be identical to the variable name
   name: "self_paced_reading_Test",
   data: trial_info.self_paced_reading,
+
   // you can add custom functions at different stages through a view's life cycle
   // hook: {
   //     after_response_enabled: check_response
@@ -118,3 +119,31 @@ const self_paced_reading_Test = magpieViews.view_generator("self_paced_reading",
 // There are many more templates available:
 // forced_choice, slider_rating, dropdown_choice, testbox_input, rating_scale, image_selection, sentence_choice,
 // key_press, self_paced_reading and self_paced_reading_rating_scale
+// Here, we initialize a normal forced_choice view
+const self_paced_reading_Test_negative = magpieViews.view_generator("self_paced_reading", {
+  // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
+  trials: trial_info_negative.self_paced_reading.length,
+  // name should be identical to the variable name
+  name: "self_paced_reading_Test_negative",
+  data: trial_info_negative.self_paced_reading,
+
+  // you can add custom functions at different stages through a view's life cycle
+  // hook: {
+  //     after_response_enabled: check_response
+  // }
+});
+
+
+// Here, we initialize a normal forced_choice view
+const self_paced_reading_Test_positive = magpieViews.view_generator("self_paced_reading", {
+  // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
+  trials: trial_info_positive.self_paced_reading.length,
+  // name should be identical to the variable name
+  name: "self_paced_reading_Test_positive",
+  data: trial_info_positive.self_paced_reading,
+
+  // you can add custom functions at different stages through a view's life cycle
+  // hook: {
+  //     after_response_enabled: check_response
+  // }
+});

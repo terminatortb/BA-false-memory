@@ -18,6 +18,8 @@ $("document").ready(function() {
             intro,
             instructions,
             self_paced_reading_Test,
+            self_paced_reading_Test_negative,
+            self_paced_reading_Test_positive,
             post_test,
             thanks,
         ],
@@ -37,6 +39,8 @@ $("document").ready(function() {
             in: [
                 // list the view-names of the views for which you want a progress bar
                 self_paced_reading_Test.name,
+                self_paced_reading_Test_negative.name,
+                self_paced_reading_Test_positive.name,
             ],
              // Possible styles are "default", "separate" and "chunks"
             style: "separate",
