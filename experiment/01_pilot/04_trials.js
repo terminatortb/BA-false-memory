@@ -25,7 +25,48 @@ const trial_info_negative = {
           option1: "Stop",
           option2: "Next",
           wordPos: "same"
-      }
+      },
+      {
+          QUD: "Remember these words",
+          help_text: "just press Space",
+          sentence: "rape 2 | victim 2 | night 2",
+          option1: "Stop",
+          option2: "Next",
+          wordPos: "same"
+      },
+      {
+          QUD: "Remember these words",
+          help_text: "just press Space",
+          sentence: "rape 3 | victim 3 | night 3",
+          option1: "Stop",
+          option2: "Next",
+          wordPos: "same"
+      },
+      {
+          QUD: "Remember these words",
+          help_text: "just press Space",
+          sentence: "rape 4 | victim 4 | night 4",
+          option1: "Stop",
+          option2: "Next",
+          wordPos: "same"
+      },
+      {
+          QUD: "Remember these words",
+          help_text: "just press Space",
+          sentence: "rape 5 | victim 5 | night 5",
+          option1: "Stop",
+          option2: "Next",
+          wordPos: "same"
+      },
+      {
+          QUD: "Remember these words",
+          help_text: "just press Space",
+          sentence: "rape 6 | victim 6 | night 6",
+          option1: "Stop",
+          option2: "Next",
+          wordPos: "same"
+      },
+
   ],
 };
 
