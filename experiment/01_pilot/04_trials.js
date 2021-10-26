@@ -2,20 +2,14 @@
 
 
 const trial_info = {
-    forced_choice: [
+    self_paced_reading: [
         {
-            question: "What's on the bread?",
-            picture: "images/question_mark_02.png",
-            option1: 'jam',
-            option2: 'ham',
-            correct: 'jam'
-        },
-        {
-            question: "What's the weather like?",
-            picture: "images/weather.jpg",
-            option1: "shiny",
-            option2: "rainbow",
-            correct: "shiny"
+            QUD: "Remember these words",
+            help_text: "just press SPACE",
+            sentence: "window | sleep | word | test",
+            option1: "Next",
+            option2: "Stop"
+
         }
     ]
 };
