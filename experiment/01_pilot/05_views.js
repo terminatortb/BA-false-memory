@@ -109,6 +109,9 @@ const self_paced_reading_Test = magpieViews.view_generator("self_paced_reading",
   // name should be identical to the variable name
   name: "self_paced_reading_Test",
   data: _.shuffle(trial_info.self_paced_reading),
+  stim_duration: 2000,
+  pause: 2000,
+
 
   // you can add custom functions at different stages through a view's life cycle
   // hook: {
@@ -126,6 +129,9 @@ const self_paced_reading_Test_negative = magpieViews.view_generator("self_paced_
   // name should be identical to the variable name
   name: "self_paced_reading_Test_negative",
   data: _.shuffle(trial_info_negative.self_paced_reading),
+  stim_duration: 2000,
+  pause: 2000,
+
 
   // you can add custom functions at different stages through a view's life cycle
   // hook: {
@@ -141,6 +147,8 @@ const self_paced_reading_Test_positive = magpieViews.view_generator("self_paced_
   // name should be identical to the variable name
   name: "self_paced_reading_Test_positive",
   data: _.shuffle(trial_info_positive.self_paced_reading),
+  stim_duration: 2000,
+  pause: 2000,
 
   // you can add custom functions at different stages through a view's life cycle
   // hook: {
